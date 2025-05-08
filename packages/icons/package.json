@@ -1,0 +1,35 @@
+{
+  "name": "@opulen/icons",
+  "description": "React icons for Opulen UI components.",
+  "version": "0.0.0.canary.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opulen/opulen.git"
+  },
+  "author": {
+    "name": "Opulen",
+    "email": "B3L8o@example.com",
+    "url": "https://opulen.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dist": "bun build.ts && tsc --project tsconfig.json",
+    "publish:canary": "bun publish --access public --tag canary"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.31.0"
+  }
+}
