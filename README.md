@@ -1,7 +1,7 @@
 # Opulen
 Simple yet Powerful React UI Elements built upon Tailwind v4.0
 
-> [!INFO]
+> [!NOTE]
 > This repo is looking for active contributer and UI designers.
 
 > [!CAUTION]
