@@ -1,7 +1,7 @@
 {
   "name": "@opulen/icons",
   "description": "React icons for Opulen UI components.",
-  "version": "0.0.0.canary.0",
+  "version": "0.0.0-canary.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opulen/opulen.git"
