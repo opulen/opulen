@@ -1,0 +1,8 @@
+{
+  "include": ["./src/*.ts", "./src/*.tsx"],
+  "exclude": ["**/*.test.ts", "**/*.test.tsx"],
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  }
+}
