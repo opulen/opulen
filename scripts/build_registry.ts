@@ -1,5 +1,5 @@
 import path from "path";
-import ora, {oraPromise} from "ora";
+import { oraPromise } from "ora";
 import { ui } from "../registry/ui";
 // import { lib } from "../registry/lib";
 
