@@ -148,3 +148,5 @@ count.txt
 .wrangler
 .output
 .vinxi
+.vercel
+.env*.local
