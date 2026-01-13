@@ -23,6 +23,7 @@
     "baseUrl": ".",
     "paths": {
       "@/registry/*": ["./components/*"],
+      "@/lib/*": ["./lib/*"],
       "@/*": ["./src/*"]
     }
   }
